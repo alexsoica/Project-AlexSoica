@@ -1,6 +1,8 @@
 <html>
 	<head>
 		<title>Lab 5 U2</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="script.js" defer></script>
 		<style>
 		body {
         background-color: darkgreen;
@@ -42,17 +44,34 @@
 		table, th, td {
         border: 1px solid red;
         }
+		button {
+		text-align:center;
+		}
+		p {
+		color: blue;
+		background-color: darkred;
+		font-weight: bold;
+		}
 		</style>
 	</head>
 
-	<body>
-		<h1>Nume: Soica</h1>
-		<h2>Prenume: Alex</h2>
+	<body id="body">
+	    <button class="align-center">
+		    <a href="Cuprins.html">Cuprins</a>
+		</button>
+		<br>
+		<button class="align-center" id="button">Alta viata</button>
+		
+		<div>
+		<h1 id="nume">Nume: Soica</h1>
+		<h2 id="prenume">Prenume: Alex</h2>
+		</div>
 		<h3>Email: soica.ne.alex@student.utcluj.ro</h3>
+		<p id="anNastere">2006</p>
 		<h3>Poza:</h3>
-		<img id="rounded-img" src="C:\Users\AlexCatalinSoica\Desktop\Project-AlexSoica\images\Picture1.jpg" width="250" height="250">
+		<img id="rounded-img" id="poza" src="C:\Users\AlexCatalinSoica\Desktop\Project-AlexSoica\images\Picture1.jpg" width="250" height="250">
 		<h4>Asteptari legate de educatie:</h4>
-		<p class="align-center"> - Sa trec cu bine cei 4 ani de facultate </p>
+		<p class="align-center" id="asteptari"> - Sa trec cu bine cei 4 ani de facultate </p>
 		<p class="align-center"><b>Discipline:</b><a href="https://etti.utcluj.ro/fise-discipline/articles/ea-ro.html">https://etti.utcluj.ro/fise-discipline/articles/ea-ro.html</a></p>
 		<table border-color="black">
 		<tr>

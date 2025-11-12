@@ -1,0 +1,51 @@
+<style>
+		body {
+        background-color: darkgreen;
+        }
+		h1 {
+		color: red;
+		text-shadow: 2px 2px;
+		}
+		h2 {
+		color: white;
+		text-decoration-line: underline;
+		}
+		h3 {
+		color: darkred;
+		}
+		h4 {
+		text-transform: capitalize;
+		}
+		#rounded-img{
+		border-radius: 30px;
+		}
+		img {
+        border: 2px solid red;
+        border-radius: 5px;
+        }
+		a {
+        color: yellow;
+        background-color: blue;
+        font-weight: bold;
+        }
+		.align-center{
+		text-align:center;
+		}
+		ul.a {list-style-type: square;
+		     margin: 25px 50px 75px 100px;
+             border-style: dotted;
+			 border-color: lightblue;
+			 }
+		table, th, td {
+        border: 1px solid red;
+        }
+		button {
+		display: block;
+		margin: 0 auto;
+		}
+		p {
+		color: blue;
+		background-color: darkred;
+		font-weight: bold;
+		}
+		</style>
