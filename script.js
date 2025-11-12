@@ -22,6 +22,7 @@ function altaViata() {
 	asteptari.innerHTML = "<ul><li>Libertate financiara</li></ul>"
 	poza.src = "images/lupusinguratic.jpg"
 	poza.style.opacity = "70%"
+	poza.style.border = "5px solid black"
 	poza.style.width = "300px"
 	poza.style.height = "200px"
 	body.backgroundColor = "blue"
